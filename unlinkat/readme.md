@@ -1,9 +1,9 @@
-## 安装bpftool
+## Install bpftool
 ```bash
 apt install bpftool
 ```
 
-## 生成vmlinux
+## Generate vmlinux.h
 ```bash
 bpftool btf dump file /sys/kernel/btf/vmlinux format c > vmlinux.h
 ```
